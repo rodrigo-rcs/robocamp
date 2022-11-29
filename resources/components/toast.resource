@@ -1,11 +1,12 @@
 *** Settings ***
-Documentation    Representação dos Toater
+Documentation    Representação do componete toast
 
 Library    Browser
 
 *** Keywords ***
 Verify Toater
     [Arguments]    ${expeted_message}
+    
     Wait For Elements State
     ...    css=.Toastify__toast-body div >> text=${expeted_message}
     ...    visible    5

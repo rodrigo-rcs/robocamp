@@ -5,7 +5,7 @@ class DateTricks():
     def get_start_date(self):
         today = date.today()
 
-        fdate = today.strftime('%Y-%m-%d')
+        fdate = today.strftime('%d/%m/%Y')
 
         print(fdate)
 
