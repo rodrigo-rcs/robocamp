@@ -7,14 +7,6 @@ Resource    ../resources/base.resource
 
 
 *** Test Cases ***
-Testando API
-    [Tags]    api
-
-    ${admin}     Get Fixture    admin
-    ${falcao}    Get Fixture    falcao
-
- 
-    
 Deve matricular um aluno
 
     ${admin}    Get Fixture        admin
@@ -23,7 +15,7 @@ Deve matricular um aluno
     Reset Student     ${falcao}[student][email] 
 
     ${token}    Get Service Token       ${admin}
-    POST New student    ${token}    ${falcao}[student]
+    POST New Student    ${token}    ${falcao}[student]
 
     Do Login                ${admin}
     

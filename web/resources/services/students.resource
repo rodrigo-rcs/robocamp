@@ -4,7 +4,7 @@ Documentation    Consumindo a rota services da API REST
 Library               RequestsLibrary
 
 *** Keywords ***
-POST New student
+POST New Student
     [Arguments]    ${token}    ${student}
 
     ${headers}    Create Dictionary    Authorization=${token}  
