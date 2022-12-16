@@ -3,6 +3,7 @@ Documentation    Aqui estão todas as importações
 
 Resource    components/navbar.resource
 Resource    components/toast.resource
+Resource    components/notification.resource
 Resource    pages/login.resource
 Resource    pages/enroll.resource
 

@@ -4,6 +4,13 @@ Documentation    Suite de teste de autenticação
 
 Resource    ../resources/base.resource
 
+Suite Setup        Log    Executado uma única vez antes de TODOS os testes
+Suite Teardown     Log    Executado uma única vez depois de TODOS os testes
+
+Test Setup         Log    Executado sempre antes de cada teste
+Test Teardown      Log    Executado sempre depois de cada teste
+
+
 *** Test Cases ***
 Login do Administrador
     Go to Login Page

@@ -4,6 +4,8 @@ Documentation    Suite de testes matricula alunos
 
 Resource    ../resources/base.resource
 
+Test Teardown    Take Screenshot
+
 
 
 *** Test Cases ***

@@ -1,0 +1,14 @@
+{
+    "student":{
+        "feet_tall": 1.60,
+        "weight": 70,
+        "age": 20,
+        "email": "maria@hotmail.com",
+        "name": "Maria de Souza"
+    },    
+    "enroll": {
+        "plan": "Smart"
+    },
+    "question": "Como faço para perder peso",
+    "answer": "Fazer exercicio aerobico por 1 hora por dia."
+}
